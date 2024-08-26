@@ -5,7 +5,7 @@ import { Button } from "~/components/ui/button";
 
 export default function HomePage() {
   return (
-    <main className="w-full min-h-dvh grid place-items-center">
+    <main className="w-full min-h-[calc(100dvh-48px)] grid place-items-center">
       <section className="flex flex-col gap-4 items-center justify-center">
         <Image
           src="/images/logo-turtle.png"

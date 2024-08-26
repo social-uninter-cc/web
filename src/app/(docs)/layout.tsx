@@ -15,9 +15,11 @@ export default function RootLayout({
         </div>
       </header>
 
-      <main className="min-h-[calc(100dvh-80px)]">
+      <main className="min-h-[calc(100dvh-128px)]">
         <section className="container">
-          <article className="prose prose-li:m-0">{children}</article>
+          <article className="prose dark:prose-invert prose-li:m-0 pb-10">
+            {children}
+          </article>
         </section>
       </main>
     </>
